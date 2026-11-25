@@ -71,12 +71,3 @@ The current prototype uses OMC-reported charging infrastructure data rather than
 
 The forecasting model is exploratory and uses a limited number of state-year observations. Predictions are estimates rather than official infrastructure requirements.
 
-## Future Scope
-
-- Integrate VAHAN EV registration data.
-- Integrate NITI Aayog electric mobility indicators.
-- Develop a more robust infrastructure gap index.
-- Improve forecasting with additional historical observations.
-- Add geographical maps and state-level insights.
-
-
