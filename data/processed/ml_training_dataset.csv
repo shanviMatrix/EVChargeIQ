@@ -1,0 +1,145 @@
+state,year_index,current_installations,cumulative_installations,next_year_installations
+Andaman and Nicobar,0,0,0,2
+Andaman and Nicobar,1,2,2,0
+Andaman and Nicobar,2,0,2,1
+Andaman and Nicobar,3,1,3,2
+Andhra Pradesh,0,1,1,133
+Andhra Pradesh,1,133,134,143
+Andhra Pradesh,2,143,277,360
+Andhra Pradesh,3,360,637,624
+Arunachal Pradesh,0,2,2,6
+Arunachal Pradesh,1,6,8,23
+Arunachal Pradesh,2,23,31,19
+Arunachal Pradesh,3,19,50,6
+Assam,0,7,7,39
+Assam,1,39,46,119
+Assam,2,119,165,186
+Assam,3,186,351,173
+Bihar,0,4,4,66
+Bihar,1,66,70,139
+Bihar,2,139,209,179
+Bihar,3,179,388,358
+Chandigarh,0,6,6,4
+Chandigarh,1,4,10,4
+Chandigarh,2,4,14,1
+Chandigarh,3,1,15,4
+Chhattisgarh,0,0,0,68
+Chhattisgarh,1,68,68,82
+Chhattisgarh,2,82,150,187
+Chhattisgarh,3,187,337,224
+Delhi,0,35,35,37
+Delhi,1,37,72,58
+Delhi,2,58,130,100
+Delhi,3,100,230,344
+Goa,0,8,8,19
+Goa,1,19,27,6
+Goa,2,6,33,22
+Goa,3,22,55,14
+Gujarat,0,11,11,146
+Gujarat,1,146,157,334
+Gujarat,2,334,491,343
+Gujarat,3,343,834,574
+Haryana,0,26,26,115
+Haryana,1,115,141,205
+Haryana,2,205,346,344
+Haryana,3,344,690,674
+Himachal Pradesh,0,7,7,10
+Himachal Pradesh,1,10,17,37
+Himachal Pradesh,2,37,54,54
+Himachal Pradesh,3,54,108,80
+Jammu and Kashmir,0,0,0,22
+Jammu and Kashmir,1,22,22,65
+Jammu and Kashmir,2,65,87,53
+Jammu and Kashmir,3,53,140,95
+Jharkhand,0,4,4,44
+Jharkhand,1,44,48,73
+Jharkhand,2,73,121,91
+Jharkhand,3,91,212,196
+Karnataka,0,36,36,153
+Karnataka,1,153,189,542
+Karnataka,2,542,731,478
+Karnataka,3,478,1209,1034
+Kerala,0,19,19,67
+Kerala,1,67,86,154
+Kerala,2,154,240,265
+Kerala,3,265,505,415
+Ladakh,0,0,0,2
+Ladakh,1,2,2,0
+Ladakh,2,0,2,0
+Ladakh,3,0,2,14
+Lakshadweep,0,0,0,1
+Lakshadweep,1,1,1,0
+Lakshadweep,2,0,1,0
+Lakshadweep,3,0,1,0
+Madhya Pradesh,0,10,10,149
+Madhya Pradesh,1,149,159,181
+Madhya Pradesh,2,181,340,512
+Madhya Pradesh,3,512,852,421
+Maharashtra,0,9,9,129
+Maharashtra,1,129,138,465
+Maharashtra,2,465,603,517
+Maharashtra,3,517,1120,957
+Manipur,0,1,1,15
+Manipur,1,15,16,17
+Manipur,2,17,33,19
+Manipur,3,19,52,19
+Meghalaya,0,1,1,7
+Meghalaya,1,7,8,19
+Meghalaya,2,19,27,14
+Meghalaya,3,14,41,38
+Mizoram,0,0,0,0
+Mizoram,1,0,0,2
+Mizoram,2,2,2,11
+Mizoram,3,11,13,16
+Nagaland,0,2,2,4
+Nagaland,1,4,6,8
+Nagaland,2,8,14,22
+Nagaland,3,22,36,17
+Odisha,0,0,0,90
+Odisha,1,90,90,121
+Odisha,2,121,211,268
+Odisha,3,268,479,257
+Puducherry,0,0,0,4
+Puducherry,1,4,4,7
+Puducherry,2,7,11,16
+Puducherry,3,16,27,27
+Punjab,0,7,7,95
+Punjab,1,95,102,197
+Punjab,2,197,299,267
+Punjab,3,267,566,558
+Rajasthan,0,47,47,201
+Rajasthan,1,201,248,314
+Rajasthan,2,314,562,622
+Rajasthan,3,622,1184,681
+Sikkim,0,0,0,0
+Sikkim,1,0,0,2
+Sikkim,2,2,2,10
+Sikkim,3,10,12,1
+Tamil Nadu,0,21,21,187
+Tamil Nadu,1,187,208,257
+Tamil Nadu,2,257,465,702
+Tamil Nadu,3,702,1167,1064
+Telangana,0,24,24,98
+Telangana,1,98,122,155
+Telangana,2,155,277,380
+Telangana,3,380,657,730
+Tripura,0,2,2,13
+Tripura,1,13,15,16
+Tripura,2,16,31,24
+Tripura,3,24,55,8
+Dadra and Nagar Haveli and Daman and Diu,0,0,0,1
+Dadra and Nagar Haveli and Daman and Diu,1,1,1,5
+Dadra and Nagar Haveli and Daman and Diu,2,5,6,4
+Dadra and Nagar Haveli and Daman and Diu,3,4,10,5
+Uttar Pradesh,0,19,19,252
+Uttar Pradesh,1,252,271,649
+Uttar Pradesh,2,649,920,1159
+Uttar Pradesh,3,1159,2079,1034
+Uttarakhand,0,5,5,24
+Uttarakhand,1,24,29,43
+Uttarakhand,2,43,72,93
+Uttarakhand,3,93,165,81
+West Bengal,0,0,0,141
+West Bengal,1,141,141,216
+West Bengal,2,216,357,326
+West Bengal,3,326,683,496

@@ -1,0 +1,206 @@
+/* EVChargeIQ ORIGINAL DARK THEME */
+
+.stApp {
+    background-color: #101820 !important;
+    color: #E8EDF2 !important;
+    font-family: Arial, sans-serif;
+}
+
+.main, [data-testid="stAppViewContainer"] {
+    background-color: #101820 !important;
+}
+
+.main .block-container {
+    max-width: 1450px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Main headings */
+h1, h2, h3, h4 {
+    color: #F2F5F8 !important;
+}
+
+p, label, .stMarkdown, [data-testid="stCaptionContainer"] {
+    color: #D5DEE7;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #262522 !important;
+    border-right: 1px solid #3A3935;
+}
+
+section[data-testid="stSidebar"] > div {
+    background-color: #262522 !important;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] label {
+    color: #F2F5F8 !important;
+}
+
+section[data-testid="stSidebar"] .stRadio div[role="radiogroup"] {
+    gap: 5px;
+}
+
+section[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label {
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+section[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:hover {
+    background: #343B3E;
+}
+
+section[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:has(input:checked) {
+    background: #34483F;
+    border-left: 3px solid #28B879;
+}
+
+/* KPI cards */
+[data-testid="stMetric"] {
+    background-color: #1C2935 !important;
+    padding: 16px;
+    border: 1px solid #344452;
+    border-radius: 12px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #B8C7D9 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #FFFFFF !important;
+}
+
+/* Charts */
+[data-testid="stPlotlyChart"] {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.stButton > button,
+.stDownloadButton > button {
+    background: #168747;
+    color: white;
+    border: 1px solid #168747;
+    border-radius: 8px;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: #106B39;
+    color: white;
+    border-color: #28B879;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    color: #CBD5DF;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #48D597 !important;
+    border-bottom-color: #28B879 !important;
+}
+
+/* Expanders */
+[data-testid="stExpander"] {
+    background: #1C2935;
+    border: 1px solid #344452;
+    border-radius: 10px;
+}
+
+/* Inputs */
+.stTextInput input,
+.stNumberInput input {
+    background: #1C2935;
+    color: white;
+}
+
+/* Dividers */
+hr {
+    border-color: #344452;
+}
+
+/* Original splash animations */
+@keyframes evqi-appear {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes evqi-exit {
+    0%, 88% { opacity: 1; visibility: visible; }
+    100% { opacity: 0; visibility: hidden; pointer-events: none; }
+}
+
+@keyframes evqi-loading {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+@keyframes evqi-float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-9px) scale(1.025); }
+}
+
+@keyframes evqi-glow {
+    0%, 100% { filter: drop-shadow(0 3px 5px rgba(22,135,71,.05)); }
+    50% { filter: drop-shadow(0 8px 16px rgba(22,135,71,.16)); }
+}
+
+.evqi-splash {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: evqi-exit .7s ease 5.3s forwards;
+}
+
+.evqi-brand {
+    text-align: center;
+    animation: evqi-appear 1.2s ease-out;
+}
+
+.evqi-logo {
+    width: min(500px, 90vw);
+    max-height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    animation: evqi-float 3s ease-in-out infinite,
+               evqi-glow 3s ease-in-out infinite;
+}
+
+.evqi-tagline {
+    margin-top: 22px;
+    color: #718078;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+}
+
+.evqi-loader {
+    width: 110px;
+    height: 3px;
+    margin: 28px auto 0;
+    background: #E8F0E9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.evqi-loader-fill {
+    width: 0%;
+    height: 100%;
+    background: #168747;
+    animation: evqi-loading 5.3s ease-in-out forwards;
+}
